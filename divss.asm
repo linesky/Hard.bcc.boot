@@ -1,11 +1,4 @@
-;;;-----------------------------------------
-;;; Start MC68HC11 gcc assembly output
-;;; gcc compiler 3.3.6-m68hc1x-20060122
-;;; Command:	/usr/lib/gcc-lib/m68hc11/3.3.6-m68hc1x-20060122/cc1 -quiet -D__GNUC__=3 -D__GNUC_MINOR__=3 -D__GNUC_PATCHLEVEL__=6 -Dmc68hc1x -D__mc68hc1x__ -D__mc68hc1x -D__INT__=32 -Dmc6811 -DMC6811 -Dmc68hc11 divs.c -quiet -dumpbase divs.c -auxbase-strip divss -o divss.asm
-;;; Compiled:	Tue May  7 18:11:05 2024
-;;; (META)compiled by GNU C version 4.6.3.
-;;;-----------------------------------------
-	.file	"divs.c"
+
 	.mode mlong
 	.globl	__divsi3
 	.sect	.text
@@ -102,4 +95,3 @@ main:
 	sty	*_.frame
 	rts
 	.size	main, .-main
-	.ident	"GCC: (GNU) 3.3.6-m68hc1x-20060122"
