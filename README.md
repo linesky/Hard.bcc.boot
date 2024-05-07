@@ -1,2 +1,5 @@
-# Hard.bcc.boot
-Boot from hard disk image .bin
+# m68hc11.assembly
+
+
+assembly of chip 
+
