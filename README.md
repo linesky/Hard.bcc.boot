@@ -1,4 +1,4 @@
-# keyboard.2d.simulator
+# distro.puppy.basic
 
-simulate a 2d array keyboard
+freebasic elf build into puppy os
 
